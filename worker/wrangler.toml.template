@@ -11,9 +11,9 @@ compatibility_flags = [ "nodejs_compat" ]
 # [triggers]
 # crons = [ "0 0 * * *" ]
 
-# send_email = [
-#    { name = "SEND_MAIL" },
-# ]
+send_email = [
+    { name = "SEND_MAIL" },
+ ]
 
 [vars]
 # TITLE = "Custom Title" # custom title
@@ -34,8 +34,8 @@ PREFIX = "tmp"
 # DISABLE_ADMIN_PASSWORD_CHECK = false
 # ADMIN CONTACT, CAN BE ANY STRING
 # ADMIN_CONTACT = "xx@xx.xxx"
-DEFAULT_DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # domain name for no role users
-DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # all domain names
+DEFAULT_DOMAINS = ["cfip.nyc.mn" , "beip.us.kg"] # domain name for no role users
+DOMAINS = ["cfip.me" , "sblzj.me" , "beip.us.kg"] , "cfip.nyc.mn"]] # all domain names
 # For chinese domain name, you can use DOMAIN_LABELS to show chinese domain name
 # DOMAIN_LABELS = ["中文.xxx", "xxx.xxx2"]
 # USER_DEFAULT_ROLE = "vip" # default role for new users(only when enable mail verification)
@@ -101,8 +101,8 @@ ENABLE_AUTO_REPLY = false
 
 [[d1_databases]]
 binding = "DB"
-database_name = "xxx"
-database_id = "xxx"
+database_name = "cfmail"
+database_id = "e1f34cf5-210e-4b53-98c0-2d3936b4eb31"
 
 # kv config for send email verification code
 # [[kv_namespaces]]
